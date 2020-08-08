@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+*/*Seletor universal*/
+{
+    font-family: 'Krona One', sans-serif;
+}
+
+html, body{
+    
+    
+    margin: 0;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    z-index: 16;
+}
+#logo{
+    width: 125px;
+    position: absolute;
+    top: 10px;
+    margin-left: 5%;
+    padding-bottom: -20px;
+}
+#menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    
+
+}
+.topico{
+    text-decoration: initial;
+     color: #01AAEA;
+}
+li{
+    float: left;
+    padding: 10 5 10 5;
+    
+}
+li:hover{
+    background-color: rgba(14, 6, 59, 0.815) ;
+}
+#fundo{
+    background: url(f3.jpg);
+    background-size: 1363px;
+    height:600px;
+    text-align: center;
+    padding: 30px;
+}
+#titulo{
+    color: black;
+    padding-top: 13%;
+    font-size: 50px;
+    line-height: 0.6; /* a distancia entre o titulo e o paragrafo */    
+    text-align: center;
+    line-height: 1;
+}
+#paragrafo{
+    color: black;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-bottom: 20px;
+    text-align: center; 
+}
+#acao{
+    color: black ;
+    border: 3px black solid;
+    border-radius: 8px;
+    padding: 10px 20px 10px 20px;
+    font-size: 17px;
+    text-decoration: initial; /* RETIRA LINHA SUBLINHADA  */
+}
+#acao2{
+    text-decoration: initial;
+    font-size: 15px;
+    color: lightslategrey;
+    border: 2px lightslategray solid;
+    border-radius: 10px;
+}
+.icone{
+    width: 40%;
+}
+.icone:hover{
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+#icone{
+    width: 35%;
+}
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+}
+.colunaquatro{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 23%
+}
+.justificado{text-align: justify;
+}
+
+.centralizado{
+    text-align: center;
+}
+#projeto{
+    background-color: whitesmoke 20px 10px 30px 30px ;
+    padding: 20px;
+}
+#selecao{
+    background-color: whitesmoke;
+    text-align: center;
+}
+#margens{
+    background-color: lightgrey ;
+    margin-left: 43%;
+    margin-right: 43%;
+    padding: 15px ;
+    border-radius: 10px;
+
+}
+.imagem{
+    width: 90%;
+}
+#imagemtitulo{
+    width: 300px;
+}
+#ecopontos{
+    text-align: center;
+}
+#eu{
+    text-align: center;
+
+}
+#centro{
+    text-align: center;
+}
+.coluna2{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+}
+.fundo2{
+    background-color: rgb(179, 174, 170);
+}
+section{
+    padding: 20px;
+    float: left;
+}
+.eu{
+    width: 70% ;
+}
+footer{
+    background-color: #01AAEA;
+    float: left;
+    width: 100%;
+}
+.footer{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+#insta{
+    text-decoration: initial;
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(153, 153, 153);
+    padding: 5px;
+}
+@media all and (max-width:768px){
+    #menu{
+        visibility:hidden ;
+    }
+    .coluna,.colunaquatro,.coluna2{
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+    #logodiv{
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+    #logo{
+        margin-left: 0px;
+        transform: translateX(-50%);
+    }
+    #margens{
+        margin-left: 63px;
+        margin-right: 63px;
+    }
+}
